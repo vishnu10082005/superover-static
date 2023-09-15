@@ -1,84 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-body{
-    background: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
-   background-size: cover;
-    font-family: sans-serif;
-    color: white;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-   
+body {
+  background: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
-.img{
-    margin: auto;
-    display: flex;
-    height: 100px;
-    width: 200px;
-    margin-top: 30px;
+.img {
+  margin: auto;
+  display: flex;
+
+  width: 200px;
+  margin-top: 30px;
 }
-.button{
-    height: 75px;
-    width: 75px;
-    margin: auto;
+.button {
+  height: 75px;
+  width: 75px;
+  margin: auto;
+}
+section {
+  display: flex;
+  justify-content: center;
+  margin: 14vh auto;
+}
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.score {
+  padding: 30px;
+  border-radius: 10%;
 
 }
-section{display: flex;
-justify-content: center;
-margin: 14vh auto;
+
+.scoreboard {
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 19px;
 }
-h1{
-    font-size: 90px;
-    font-weight: 700;
-    }
-    .score{
-        padding: 30px;
-        border-radius: 10%;
-        
-    }
-    .scoreboard{
-        font-size: 30px;
-        font-weight: 700;
-        padding-top: 19px;
-    }
-    #team1{background-color: blue;
-        margin-right: 150px;
-    }
-    #team2{background-color: green;}
-    .ball
-    {
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        background-color: white;
-        color: black;
-        margin-top: 10px;
-        padding-top: 15px;
-        font-size: 20px;
-        font-weight: 700;
 
-             
+#team1 {
+  background-color: #1D5BA3;
+  margin-right: 150px;
+}
 
-    }
-    .balls{
-        display: flex;
+#team2 {
+  background-color: #48A554;
+}
 
-    }
-    .score{
+.ball {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
 
-    }
-    .button{
-        width: 70px;
-        margin: 0 30px;
-        cursor: pointer;  
-    animation-name: button;
-transition: all 0.25 ease;  }
 
-.button:active{
-    transform: scale(0.96);
 
+}
+.balls {
+  display: flex;
+  padding: 10px;
+}
+.button {
+  width: 70px;
+  margin: 0 30px;
+  cursor: pointer;
+  animation-name: button;
+  transition: all 0.25 ease;
+}
+.button:active {
+  transform: scale(0.96);
 }
